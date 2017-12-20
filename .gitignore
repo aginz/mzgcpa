@@ -10,4 +10,15 @@
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 
+# App executable
 app
+
+#  Local .terraform directories
+infrastructure/**/.terraform/*
+
+# .tfstate files
+infrastructure/*.tfstate
+infrastructure/*.tfstate.*
+
+# .tfvars files
+infrastructure/*.tfvars
